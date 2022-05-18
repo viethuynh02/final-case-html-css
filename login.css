@@ -1,0 +1,96 @@
+* {
+    font-size: large;
+    text-decoration: none;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-image: linear-gradient(180deg, #73675A, yellow);
+    background-color:#73675A;
+}
+main {
+    width: 400px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.logo-header {
+    font-size: 50px;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.logo-header h1 {
+    display: inline;
+    font-size: 40px;
+}
+
+.login-continue {
+    border-bottom: 1px solid rgb(65, 62, 62);
+    text-align: center;
+}
+.login-continue--button, .login-button, .sign-up--button {
+    width: 400px;
+    margin: auto;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(83, 80, 80);
+}
+.login-continue--button a {
+    color: white;
+}
+.logo {
+    display: inline-block;
+    margin-right: 20px;
+}
+.login-continue--button .text {
+    display: inline-block;
+}
+.facebook {
+    background-color: rgb(25, 25, 168);
+}
+.apple {
+    background-color: black;
+}
+.google a, .phone a{
+    color: rgb(94, 90, 90);
+}
+
+.orther-login {
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.orther-login a {
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: block;
+}
+.orther-login a:hover {
+    text-decoration: underline;
+}
+.login-button {
+    background-color: rgb(65, 212, 114);
+    text-align: center;
+    margin-top: 5px;
+}
+.login-button a {
+    color: white;
+}
+
+.sign-up {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid black;
+}
+.sign-up h5 {
+    font-size: 20px;
+    margin: 0;
+}
+.sign-up--button {
+    margin-top: 3px;
+}
+.sign-up--button a {
+    color: rgb(63, 59, 59);
+}
